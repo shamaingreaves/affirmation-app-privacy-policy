@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - Daily Affirmations</title>
+  <style>
+    :root {
+      --bg: #f7f4ff;
+      --card: #ffffff;
+      --text: #222222;
+      --muted: #666666;
+      --accent: #7c4dff;
+      --border: #e9e1ff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #f7f4ff 0%, #fcfbff 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 20px 60px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px;
+      box-shadow: 0 10px 30px rgba(124, 77, 255, 0.08);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 2rem;
+      color: var(--accent);
+    }
+
+    h2 {
+      margin-top: 28px;
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+    }
+
+    p, li {
+      font-size: 1rem;
+    }
+
+    .muted {
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .email {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 12px;
+      background: #f3edff;
+      border: 1px solid var(--border);
+      color: var(--accent);
+      font-weight: bold;
+      text-decoration: none;
+      word-break: break-all;
+    }
+
+    .footer {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 22px;
+        border-radius: 16px;
+      }
+
+      h1 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Privacy Policy</h1>
+      <p class="muted"><strong>App:</strong> Daily Affirmations – Motivation &amp; Confidence<br><strong>Last Updated:</strong> March 10, 2026</p>
+
+      <p>
+        This Privacy Policy explains how the mobile application <strong>Daily Affirmations – Motivation &amp; Confidence</strong>
+        (the “App”) handles information when you use it.
+      </p>
+
+      <h2>Information We Collect</h2>
+      <p>
+        The App is designed to provide daily affirmations and motivational content. At this time, the App does not require
+        account creation and does not directly collect personal information such as your name, email address, phone number,
+        or precise location.
+      </p>
+
+      <h2>Advertising</h2>
+      <p>
+        The App may display advertising through third-party services, such as Google AdMob. These services may automatically
+        collect limited information such as device information, advertising identifiers, approximate location, and app usage
+        data in order to provide and improve advertising.
+      </p>
+
+      <h2>How Information Is Used</h2>
+      <p>Automatically collected information may be used for the following purposes:</p>
+      <ul>
+        <li>To provide and improve the App experience</li>
+        <li>To display advertisements</li>
+        <li>To analyze general app usage trends</li>
+      </ul>
+
+      <h2>Third-Party Services</h2>
+      <p>
+        The App may rely on third-party services that may collect information in accordance with their own privacy policies,
+        including advertising and analytics providers.
+      </p>
+
+      <h2>Data Security</h2>
+      <p>
+        We value your trust and take reasonable steps to protect information associated with the App. However, no method of
+        electronic transmission or storage is completely secure.
+      </p>
+
+      <h2>Children’s Privacy</h2>
+      <p>
+        The App is not intended for children under the age of 13. We do not knowingly collect personally identifiable
+        information from children under 13. If you believe such information has been provided, please contact us.
+      </p>
+
+      <h2>Changes to This Privacy Policy</h2>
+      <p>
+        This Privacy Policy may be updated from time to time. Any changes will be posted on this page with an updated
+        effective date.
+      </p>
+
+      <h2>Contact</h2>
+      <p>If you have any questions about this Privacy Policy, you can contact the developer at:</p>
+      <p><a class="email" href="mailto:youremail@example.com">youremail@example.com</a></p>
+
+      <p class="footer">
+        Replace the contact email above before publishing. You can host this file on GitHub Pages, Netlify, or any basic web host,
+        then paste the public URL into your Google Play privacy policy field.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
